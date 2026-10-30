@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o objetivo do site e a equipe que o desenvolveu.">
+    <title>Sobre | Web na Prática</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="largura barra">
+            <a class="marca" href="index.html">&lt;/&gt; Web na Prática</a>
+            <button type="button" class="menu-botao" id="menu-botao" aria-controls="menu-lista" aria-expanded="false">Menu</button>
+            <nav aria-label="Menu principal">
+                <ul class="menu-puro" id="menu-lista">
+                    <li><a class="nav-link" href="index.html">Início</a></li>
+                    <li><a class="nav-link ativo" href="sobre.html" aria-current="page">Sobre</a></li>
+                    <li><a class="nav-link" href="html.html">HTML</a></li>
+                    <li><a class="nav-link" href="css.html">CSS</a></li>
+                    <li><a class="nav-link" href="flexbox.html">Flexbox</a></li>
+                    <li><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li><a class="nav-link" href="multimidia.html">Mídias</a></li>
+                    <li><a class="nav-link" href="tabelas.html">Tabelas</a></li>
+                    <li><a class="nav-link" href="formulario.html">Contato</a></li>
+                    <li><a class="nav-link" href="javascript.html">JavaScript</a></li>
+                    <li><a class="nav-link link-externo" href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN &#8599;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="largura principal">
+        <section class="abertura">
+            <h1>Sobre o projeto</h1>
+            <p>Conheça o objetivo do site e a equipe que o desenvolveu.</p>
+        </section>
+        <section class="caixa">
+            <h2>Objetivo</h2>
+            <p>Este site foi criado para a disciplina Desenvolvimento Front-End para Web (DFEW.08), da Universidade Positivo. Ele apresenta, de forma simples e prática, as tecnologias básicas usadas para criar páginas web.</p>
+            <p id="texto-sobre" class="destaque-sobre">Navegue pelas dez páginas, teste os botões, preencha o formulário e assista ao vídeo.</p>
+            <button type="button" class="botao" id="botao-sobre">Destacar texto</button>
+        </section>
+        <section class="caixa">
+            <h2>Equipe</h2>
+            <ul class="lista-simples">
+                <li><strong>Paulo Geandre Pinto</strong> — desenvolvimento do site e do software.</li>
+                <li><strong>Rennan Jackowski</strong> — responsável pelo GitHub e pelos ajustes e revisões do projeto.</li>
+            </ul>
+            <p>Professor: Fabricio Olivo.</p>
+        </section>
+        <section class="caixa">
+            <h2>Assuntos estudados</h2>
+            <ul class="lista-simples">
+                <li>HTML e a estrutura das páginas.</li>
+                <li>CSS e a aparência dos elementos.</li>
+                <li>Bootstrap e o layout responsivo.</li>
+                <li>JavaScript e as interações com o usuário.</li>
+            </ul>
+            <p>Esta página usa apenas HTML, CSS e JavaScript puros, sem Bootstrap.</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="largura">
+            <p><strong>Web na Prática</strong> — projeto da disciplina DFEW.08 (Desenvolvimento Front-End para Web), Universidade Positivo.</p>
+            <p>Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.</p>
+            <p>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN Web Docs</a> ·
+                <a href="https://getbootstrap.com/docs/5.3/" target="_blank" rel="noopener">Documentação do Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

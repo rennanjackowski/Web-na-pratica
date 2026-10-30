@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O HTML reproduz áudio e vídeo sem programas adicionais.">
+    <title>Mídias | Web na Prática</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <nav class="navbar navbar-expand-xl" data-bs-theme="dark" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand marca" href="index.html">&lt;/&gt; Web na Prática</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-principal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                        <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="flexbox.html">Flexbox</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link ativo" href="multimidia.html" aria-current="page">Mídias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tabelas.html">Tabelas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="formulario.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript.html">JavaScript</a></li>
+                        <li class="nav-item"><a class="nav-link link-externo" href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN &#8599;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container principal">
+        <section class="abertura">
+            <h1>Multimídia</h1>
+            <p>O HTML reproduz áudio e vídeo sem programas adicionais.</p>
+        </section>
+        <section class="caixa">
+            <h2>Vídeo</h2>
+            <video controls preload="metadata" poster="img/video-poster.svg">
+                <source src="video/apresentacao.mp4" type="video/mp4">
+                Seu navegador não suporta vídeo.
+            </video>
+            <p>O vídeo fica na pasta <strong>video</strong> e usa os controles nativos do navegador.</p>
+        </section>
+        <section class="caixa">
+            <h2>Áudio</h2>
+            <audio controls preload="metadata">
+                <source src="audio/apresentacao.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+            <p>O áudio fica na pasta <strong>audio</strong> e também usa os controles nativos.</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container">
+            <p><strong>Web na Prática</strong> — projeto da disciplina DFEW.08 (Desenvolvimento Front-End para Web), Universidade Positivo.</p>
+            <p>Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.</p>
+            <p>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN Web Docs</a> ·
+                <a href="https://getbootstrap.com/docs/5.3/" target="_blank" rel="noopener">Documentação do Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

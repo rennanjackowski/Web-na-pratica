@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flexbox ajuda a alinhar e distribuir elementos na mesma linha.">
+    <title>Flexbox | Web na Prática</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <nav class="navbar navbar-expand-xl" data-bs-theme="dark" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand marca" href="index.html">&lt;/&gt; Web na Prática</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-principal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                        <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                        <li class="nav-item"><a class="nav-link ativo" href="flexbox.html" aria-current="page">Flexbox</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="multimidia.html">Mídias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tabelas.html">Tabelas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="formulario.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript.html">JavaScript</a></li>
+                        <li class="nav-item"><a class="nav-link link-externo" href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN &#8599;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container principal">
+        <section class="abertura">
+            <h1>Flexbox</h1>
+            <p>Flexbox ajuda a alinhar e distribuir elementos na mesma linha.</p>
+        </section>
+        <section class="caixa">
+            <h2>Alinhamento dos blocos</h2>
+            <p>Os três blocos abaixo usam <strong>display: flex</strong>. A propriedade <strong>justify-content</strong> define como eles se distribuem na linha.</p>
+            <div id="exemplo-flex" class="exemplo-flex">
+                <div class="bloco-flex">1</div>
+                <div class="bloco-flex">2</div>
+                <div class="bloco-flex">3</div>
+            </div>
+            <p>Valor atual: <strong id="alinhamento-atual">space-between</strong></p>
+            <button type="button" class="btn btn-primary" id="botao-flex">Mudar alinhamento</button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container">
+            <p><strong>Web na Prática</strong> — projeto da disciplina DFEW.08 (Desenvolvimento Front-End para Web), Universidade Positivo.</p>
+            <p>Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.</p>
+            <p>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN Web Docs</a> ·
+                <a href="https://getbootstrap.com/docs/5.3/" target="_blank" rel="noopener">Documentação do Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

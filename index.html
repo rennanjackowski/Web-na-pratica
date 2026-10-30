@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia visual para quem está começando a criar páginas web com HTML, CSS, JavaScript e Bootstrap.">
+    <title>Início | Web na Prática</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <nav class="navbar navbar-expand-xl" data-bs-theme="dark" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand marca" href="index.html">&lt;/&gt; Web na Prática</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-principal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link ativo" href="index.html" aria-current="page">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                        <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="flexbox.html">Flexbox</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="multimidia.html">Mídias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tabelas.html">Tabelas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="formulario.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript.html">JavaScript</a></li>
+                        <li class="nav-item"><a class="nav-link link-externo" href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN &#8599;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container principal">
+        <section class="abertura">
+            <h1>Web na Prática</h1>
+            <p>Guia visual para quem está começando a criar páginas web com HTML, CSS, JavaScript e Bootstrap.</p>
+        </section>
+        <section class="caixa">
+            <h2>Bem-vindo!</h2>
+            <p>O Web na Prática reúne dez páginas com exemplos reais de HTML, CSS, JavaScript e Bootstrap. Cada página explica um assunto e traz um exemplo para você testar.</p>
+            <button type="button" class="btn btn-primary" id="botao-inicio">Mostrar dica</button>
+            <p id="resultado-inicio" class="dica" role="status"></p>
+        </section>
+        <section>
+            <h2>Por onde começar?</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <article class="card h-100">
+                        <img src="img/html.svg" class="card-img-top cartao-imagem" alt="Símbolo de HTML">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">HTML</h3>
+                            <p class="card-text">Organiza textos, imagens, links e tabelas em uma página.</p>
+                            <a href="html.html" class="btn btn-outline-primary">Abrir HTML</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <img src="img/css.svg" class="card-img-top cartao-imagem" alt="Símbolo de CSS">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">CSS</h3>
+                            <p class="card-text">Define cores, tamanhos, espaços e a posição de cada elemento.</p>
+                            <a href="css.html" class="btn btn-outline-primary">Abrir CSS</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <img src="img/js.svg" class="card-img-top cartao-imagem" alt="Símbolo de JavaScript">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">JavaScript</h3>
+                            <p class="card-text">Cria ações com botões, campos e dados salvos no navegador.</p>
+                            <a href="javascript.html" class="btn btn-outline-primary">Abrir JavaScript</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <img src="img/layout.svg" class="card-img-top cartao-imagem" alt="Símbolo de layout">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Flexbox e Grid</h3>
+                            <p class="card-text">Alinha blocos em linha e organiza galerias em colunas.</p>
+                            <a href="flexbox.html" class="btn btn-outline-primary">Abrir Flexbox</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <img src="img/midia.svg" class="card-img-top cartao-imagem" alt="Símbolo de mídia">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Áudio e vídeo</h3>
+                            <p class="card-text">Reproduz arquivos de som e imagem com controles nativos.</p>
+                            <a href="multimidia.html" class="btn btn-outline-primary">Abrir Mídias</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col">
+                    <article class="card h-100">
+                        <img src="img/formularios.svg" class="card-img-top cartao-imagem" alt="Símbolo de formulário">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Contato</h3>
+                            <p class="card-text">Formulário com validação que guarda as mensagens no navegador.</p>
+                            <a href="formulario.html" class="btn btn-outline-primary">Abrir Contato</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="caixa mt-4">
+            <h2>Trilha sugerida</h2>
+            <ol class="lista-simples">
+                <li>Leia a página <a href="html.html">HTML</a> para entender a estrutura de uma página.</li>
+                <li>Veja na página <a href="css.html">CSS</a> como mudar a aparência.</li>
+                <li>Teste os alinhamentos em <a href="flexbox.html">Flexbox</a> e a <a href="galeria.html">Galeria</a>.</li>
+                <li>Experimente os exemplos em <a href="javascript.html">JavaScript</a>.</li>
+                <li>Deixe uma mensagem na página de <a href="formulario.html">Contato</a>.</li>
+            </ol>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container">
+            <p><strong>Web na Prática</strong> — projeto da disciplina DFEW.08 (Desenvolvimento Front-End para Web), Universidade Positivo.</p>
+            <p>Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.</p>
+            <p>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN Web Docs</a> ·
+                <a href="https://getbootstrap.com/docs/5.3/" target="_blank" rel="noopener">Documentação do Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

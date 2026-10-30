@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fb;
+    color: #24344f;
+}
+
+h1, h2, h3 {
+    color: #173b77;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #174da3;
+}
+
+.largura {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.topo {
+    background: #174da3;
+    color: white;
+}
+
+.topo .navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.barra {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.marca {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.marca:hover {
+    color: #dceafe;
+}
+
+.topo .nav-link {
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.topo .nav-link:hover,
+.topo .nav-link.ativo {
+    background-color: #0b3678;
+    color: white;
+}
+
+.menu-puro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-botao {
+    display: none;
+    padding: 8px 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu-botao:hover {
+    background-color: #0b3678;
+}
+
+.principal {
+    padding-top: 32px;
+    padding-bottom: 50px;
+    min-height: 58vh;
+}
+
+.abertura {
+    padding: 24px;
+    border-radius: 10px;
+    background: #e6efff;
+    margin-bottom: 24px;
+}
+
+.abertura p {
+    margin-bottom: 8px;
+}
+
+.caixa {
+    border: 1px solid #d8e1ee;
+    border-radius: 10px;
+    padding: 22px;
+    background: white;
+    margin-bottom: 22px;
+}
+
+.caixa h2,
+.caixa h3 {
+    margin-top: 0;
+}
+
+.cartao-imagem {
+    width: 100%;
+    height: 125px;
+    object-fit: contain;
+    background: #f0f5ff;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.card {
+    border: 1px solid #d8e1ee;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 14px rgba(23, 77, 163, 0.18);
+}
+
+.card-body p {
+    font-size: 15px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #174da3;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #0b3678;
+    color: white;
+}
+
+.oculto {
+    display: none;
+}
+
+.dica {
+    font-weight: bold;
+    color: #174da3;
+    margin-top: 14px;
+}
+
+.exemplo-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border: 2px dashed #c4d2e6;
+    border-radius: 8px;
+    background: #f7faff;
+    padding: 20px;
+    margin-top: 14px;
+}
+
+.bloco-flex {
+    background: #174da3;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    border-radius: 5px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.foto {
+    margin: 0;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d8e1ee;
+}
+
+.foto img {
+    width: 100%;
+    height: 125px;
+    object-fit: contain;
+    background: #f0f5ff;
+}
+
+.foto h3 {
+    font-size: 19px;
+    margin: 12px 0 5px;
+}
+
+.foto p {
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+audio {
+    width: 100%;
+    max-width: 480px;
+}
+
+.tabela-rolagem {
+    overflow-x: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    padding: 9px;
+    border: 1px solid #b8c4d5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario input:hover,
+.formulario select:hover,
+.formulario textarea:hover {
+    border-color: #6599e0;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    outline: 2px solid #7cafff;
+    background-color: #f5f9ff;
+}
+
+.formulario input:invalid,
+.formulario textarea:invalid,
+.formulario select:invalid {
+    border-color: #bf6b6b;
+}
+
+.formulario input:valid,
+.formulario textarea:valid,
+.formulario select:valid {
+    border-color: #4f9d69;
+}
+
+.formulario button {
+    margin-top: 16px;
+}
+
+.mensagem-salva {
+    border: 1px solid #d8e1ee;
+    border-left: 5px solid #174da3;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    background: #f7faff;
+}
+
+.mensagem-salva h3 {
+    font-size: 18px;
+    margin: 0 0 4px;
+}
+
+.mensagem-salva p {
+    margin: 0 0 8px;
+}
+
+.mensagem-salva small {
+    display: block;
+    color: #4d6486;
+    margin-bottom: 8px;
+}
+
+.linha-notas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.campo-medio {
+    max-width: 350px;
+}
+
+.lista-resultado {
+    white-space: pre-line;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.lista-simples {
+    padding-left: 22px;
+    line-height: 1.9;
+}
+
+.destaque-sobre {
+    background-color: #e6efff;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.destacado {
+    background-color: #fff1b8;
+}
+
+.exemplo-css {
+    color: #174da3;
+    font-size: 18px;
+}
+
+#exemplo-id {
+    color: #8a2b6c;
+    font-weight: bold;
+    border-left: 4px solid #8a2b6c;
+    padding-left: 12px;
+}
+
+.codigo {
+    background: #f0f5ff;
+    border: 1px solid #d8e1ee;
+    border-radius: 6px;
+    padding: 14px;
+    overflow-x: auto;
+}
+
+.rodape {
+    background: #e8edf5;
+    border-top: 1px solid #d4deeb;
+    padding: 22px 0;
+}
+
+.rodape p {
+    margin: 0 0 6px;
+    font-size: 14px;
+}
+
+@media (max-width: 991px) {
+    .menu-botao {
+        display: block;
+    }
+
+    .menu-puro {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .menu-puro.aberto {
+        display: flex;
+    }
+
+    .barra nav {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .principal {
+        padding-top: 20px;
+    }
+
+    .abertura,
+    .caixa {
+        padding: 17px;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .exemplo-flex {
+        flex-wrap: wrap;
+    }
+
+    .bloco-flex {
+        flex: 1;
+    }
+}

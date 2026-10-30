@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML é a linguagem usada para organizar o conteúdo de uma página.">
+    <title>HTML | Web na Prática</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <div class="largura barra">
+            <a class="marca" href="index.html">&lt;/&gt; Web na Prática</a>
+            <button type="button" class="menu-botao" id="menu-botao" aria-controls="menu-lista" aria-expanded="false">Menu</button>
+            <nav aria-label="Menu principal">
+                <ul class="menu-puro" id="menu-lista">
+                    <li><a class="nav-link" href="index.html">Início</a></li>
+                    <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li><a class="nav-link ativo" href="html.html" aria-current="page">HTML</a></li>
+                    <li><a class="nav-link" href="css.html">CSS</a></li>
+                    <li><a class="nav-link" href="flexbox.html">Flexbox</a></li>
+                    <li><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li><a class="nav-link" href="multimidia.html">Mídias</a></li>
+                    <li><a class="nav-link" href="tabelas.html">Tabelas</a></li>
+                    <li><a class="nav-link" href="formulario.html">Contato</a></li>
+                    <li><a class="nav-link" href="javascript.html">JavaScript</a></li>
+                    <li><a class="nav-link link-externo" href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN &#8599;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="largura principal">
+        <section class="abertura">
+            <h1>HTML</h1>
+            <p>HTML é a linguagem usada para organizar o conteúdo de uma página.</p>
+        </section>
+        <section class="caixa">
+            <h2>Elementos básicos</h2>
+            <p>Uma página pode ter títulos, parágrafos, listas, imagens, links e tabelas. Cada um é criado por uma tag.</p>
+            <ul class="lista-simples">
+                <li><strong>&lt;h1&gt;</strong> cria um título principal.</li>
+                <li><strong>&lt;p&gt;</strong> cria um parágrafo.</li>
+                <li><strong>&lt;a&gt;</strong> cria um link.</li>
+                <li><strong>&lt;img&gt;</strong> mostra uma imagem.</li>
+                <li><strong>&lt;ul&gt;</strong> e <strong>&lt;li&gt;</strong> criam listas.</li>
+            </ul>
+            <button type="button" class="botao" id="botao-html">Mostrar ou esconder explicação</button>
+            <p id="explicacao-html" class="oculto">O HTML define o conteúdo. O CSS modifica a aparência. O JavaScript cria as interações.</p>
+        </section>
+        <section class="caixa">
+            <h2>Estrutura semântica</h2>
+            <p>Todas as páginas deste site seguem a mesma estrutura, com tags que descrevem o papel de cada parte:</p>
+            <pre class="codigo">&lt;header&gt;  cabeçalho com o menu
+&lt;main&gt;    conteúdo principal
+&lt;section&gt; bloco de conteúdo
+&lt;footer&gt;  rodapé</pre>
+        </section>
+        <section class="caixa">
+            <h2>Imagem e link</h2>
+            <img src="img/html.svg" width="140" alt="Ilustração de HTML">
+            <p><a href="index.html">Voltar para a página inicial</a></p>
+            <p>Esta página usa apenas HTML, CSS e JavaScript puros, sem Bootstrap.</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="largura">
+            <p><strong>Web na Prática</strong> — projeto da disciplina DFEW.08 (Desenvolvimento Front-End para Web), Universidade Positivo.</p>
+            <p>Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.</p>
+            <p>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN Web Docs</a> ·
+                <a href="https://getbootstrap.com/docs/5.3/" target="_blank" rel="noopener">Documentação do Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+WEB NA PRÁTICA
+
+Projeto da disciplina DFEW.08 - Desenvolvimento Front-End para Web (Universidade Positivo).
+Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.
+
+COMO ABRIR
+1. Abra o arquivo index.html no navegador. Não precisa de internet nem de servidor.
+2. Use o menu para visitar as dez páginas.
+3. Teste os botões, o formulário, o áudio e o vídeo.
+4. Diminua a janela para ver a versão de celular.
+
+PASTAS
+css/    estilos do site e Bootstrap
+js/     JavaScript do site e Bootstrap
+img/    imagens
+video/  vídeo
+audio/  áudio
+doc/    documentação em Word
+
+OBSERVAÇÕES
+- O formulário de contato guarda as mensagens no navegador (localStorage).
+- O link MDN do menu e os links do rodapé só abrem com internet.
+- As páginas sobre.html e html.html usam apenas HTML, CSS e JavaScript puros.

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tabelas apresentam dados organizados em linhas e colunas.">
+    <title>Tabelas | Web na Prática</title>
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <nav class="navbar navbar-expand-xl" data-bs-theme="dark" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand marca" href="index.html">&lt;/&gt; Web na Prática</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar o menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu-principal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                        <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="flexbox.html">Flexbox</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="multimidia.html">Mídias</a></li>
+                        <li class="nav-item"><a class="nav-link ativo" href="tabelas.html" aria-current="page">Tabelas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="formulario.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript.html">JavaScript</a></li>
+                        <li class="nav-item"><a class="nav-link link-externo" href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN &#8599;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container principal">
+        <section class="abertura">
+            <h1>Tabelas</h1>
+            <p>Tabelas apresentam dados organizados em linhas e colunas.</p>
+        </section>
+        <section class="caixa">
+            <h2>Tecnologias usadas no projeto</h2>
+            <div class="tabela-rolagem">
+                <table class="table table-striped table-bordered">
+                    <caption>Resumo das tecnologias e onde aparecem no site</caption>
+                    <thead>
+                        <tr><th scope="col">Tecnologia</th><th scope="col">Função</th><th scope="col">Exemplo</th><th scope="col">Página</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>HTML</td><td>Estrutura</td><td>Título e lista</td><td>html.html</td></tr>
+                        <tr><td>CSS</td><td>Aparência</td><td>Cores e Grid</td><td>css.html</td></tr>
+                        <tr><td>JavaScript</td><td>Interação</td><td>Botões e cálculos</td><td>javascript.html</td></tr>
+                        <tr><td>Bootstrap</td><td>Layout</td><td>Cards e menu</td><td>index.html</td></tr>
+                        <tr><td>localStorage</td><td>Dados salvos</td><td>Mensagens de contato</td><td>formulario.html</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>A tabela tem quatro colunas, com títulos, e cinco linhas de dados.</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container">
+            <p><strong>Web na Prática</strong> — projeto da disciplina DFEW.08 (Desenvolvimento Front-End para Web), Universidade Positivo.</p>
+            <p>Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.</p>
+            <p>
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener">MDN Web Docs</a> ·
+                <a href="https://getbootstrap.com/docs/5.3/" target="_blank" rel="noopener">Documentação do Bootstrap</a>
+            </p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
