@@ -41,9 +41,13 @@ a {
     color: white;
 }
 
-.topo .navbar {
-    padding-top: 12px;
-    padding-bottom: 12px;
+.topo .barra {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.barra nav {
+    width: 100%;
 }
 
 .barra {
@@ -87,12 +91,13 @@ a {
     color: white;
 }
 
-.menu-puro {
+.topo .menu-puro {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 4px;
     list-style: none;
-    margin: 0;
+    margin: 14px 0 0;
     padding: 0;
 }
 
@@ -391,14 +396,14 @@ label {
         display: block;
     }
 
-    .menu-puro {
+    .topo .menu-puro {
         display: none;
         flex-direction: column;
         width: 100%;
         margin-top: 12px;
     }
 
-    .menu-puro.aberto {
+    .topo .menu-puro.aberto {
         display: flex;
     }
 

@@ -17,7 +17,7 @@ Professor: Fabricio Olivo
 
 ## Como abrir
 
-Baixe o repositório e abra o arquivo `index.html` no navegador. Não precisa de internet nem de servidor.
+Baixe o repositório e abra o arquivo `index.html` no navegador. O conteúdo local funciona sem internet e sem servidor. Os links externos precisam de conexão. Descompacte o ZIP inteiro antes de abrir o site.
 
 ## Páginas
 
@@ -44,3 +44,13 @@ Baixe o repositório e abra o arquivo `index.html` no navegador. Não precisa de
 ## Tecnologias
 
 HTML5, CSS3 (Grid e Flexbox), JavaScript puro, Bootstrap 5.3 e localStorage.
+
+## Navegação e dados
+
+O cabeçalho tem o mesmo visual nas dez páginas. O menu utiliza classes do Bootstrap em oito páginas; `sobre.html` e `html.html` usam apenas HTML, CSS e JavaScript próprios, sem carregar Bootstrap. Em telas menores que 1200 px, o botão Menu abre e fecha os links com JavaScript próprio.
+
+O formulário é uma demonstração: as mensagens ficam no `localStorage` do navegador e não são enviadas a um servidor. A página JavaScript também salva o assunto favorito. A persistência depende das permissões e do modo de navegação; limpar os dados do navegador remove essas informações.
+
+## Documentação
+
+A documentação acadêmica em Word está na pasta `doc/`.
