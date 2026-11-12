@@ -4,14 +4,14 @@
 
 # Web na Prática
 
-Projeto da disciplina **DFEW.08 – Desenvolvimento Front-End para Web** (Universidade Positivo).
+Projeto da disciplina **Desenvolvimento Front-End Para Web** (Universidade Positivo).
 
 Site educativo com dez páginas sobre HTML, CSS, JavaScript e Bootstrap, com exemplos interativos.
 
 ## Autores
 
-- **Paulo Geandre Pinto** – desenvolvimento do site e do software
-- **Rennan Jackowski** – responsável pelo GitHub e pelos ajustes e revisões do projeto
+- **Paulo Geandre Pinto** – desenvolvimento compartilhado das páginas HTML, estilização com CSS e Bootstrap e programação em JavaScript
+- **Rennan Jackowski** – desenvolvimento compartilhado das páginas HTML, estilização com CSS e Bootstrap e programação em JavaScript, além da organização e publicação no GitHub
 
 Professor: Fabricio Olivo
 

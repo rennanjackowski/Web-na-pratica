@@ -1,6 +1,6 @@
 WEB NA PRÁTICA
 
-Projeto da disciplina DFEW.08 - Desenvolvimento Front-End para Web (Universidade Positivo).
+Projeto da disciplina Desenvolvimento Front-End Para Web (Universidade Positivo).
 Autores: Paulo Geandre Pinto e Rennan Jackowski. Professor: Fabricio Olivo.
 
 COMO ABRIR
